@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "VHdxh64ACBx/ZNMwsQNOdLSR1hv2zR2+UTnyDgiXMsI=",
+  "Source": "MovieApp",
+  "BasePath": "_content/MovieApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MovieApp\\wwwroot",
+      "Source": "MovieApp",
+      "ContentRoot": "D:\\KhDev\\MovieApp\\wwwroot\\",
+      "BasePath": "_content/MovieApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\KhDev\\MovieApp\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "SourceId": "MovieApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\KhDev\\MovieApp\\wwwroot\\",
+      "BasePath": "_content/MovieApp",
+      "RelativePath": "bootstrap/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\KhDev\\MovieApp\\wwwroot\\bootstrap\\js\\bootstrap.bundle.js",
+      "SourceId": "MovieApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\KhDev\\MovieApp\\wwwroot\\",
+      "BasePath": "_content/MovieApp",
+      "RelativePath": "bootstrap/js/bootstrap.bundle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Identity": "D:\\KhDev\\MovieApp\\wwwroot\\Index.css",
+      "SourceId": "MovieApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\KhDev\\MovieApp\\wwwroot\\",
+      "BasePath": "_content/MovieApp",
+      "RelativePath": "Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.css"
+    }
+  ]
+}

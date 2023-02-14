@@ -1,0 +1,33 @@
+﻿@{
+    //Layout = "~/Views/Shared/Layout.cshtml";
+}
+    <form action="/Movies/Create" method="post">
+        <div class="mb-2">
+            <lable>Title</lable>
+            <input type="text" name="title" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <lable>Price</lable>
+            <input type="text" name="price" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <lable>Title</lable>
+            <textarea type="text" name="description" class="form-control">
+
+            </textarea>
+        </div>
+        <button class="btn btn-sm btn-primary">Submit</button>
+    </form>
+
+    <div>
+        <p>@ViewBag.title</p>
+        <p>@ViewBag.description</p>
+        <p>@ViewBag.price</p>
+    </div>
+
+@section search{
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+        }

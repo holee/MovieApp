@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\Index.css",
+      "PackagePath": "staticwebassets\\Index.css"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MovieApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MovieApp.props",
+      "PackagePath": "build\\MovieApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MovieApp.props",
+      "PackagePath": "buildMultiTargeting\\MovieApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MovieApp.props",
+      "PackagePath": "buildTransitive\\MovieApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
