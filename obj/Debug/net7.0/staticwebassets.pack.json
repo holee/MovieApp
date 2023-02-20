@@ -13,6 +13,158 @@
       "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\fonts\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\fonts\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\fonts\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\fonts\\js\\all.min.js"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\lte\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\AdminLTELogo.png",
+      "PackagePath": "staticwebassets\\lte\\img\\AdminLTELogo.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\lte\\img\\avatar.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\avatar2.png",
+      "PackagePath": "staticwebassets\\lte\\img\\avatar2.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\avatar3.png",
+      "PackagePath": "staticwebassets\\lte\\img\\avatar3.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\avatar4.png",
+      "PackagePath": "staticwebassets\\lte\\img\\avatar4.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\avatar5.png",
+      "PackagePath": "staticwebassets\\lte\\img\\avatar5.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\boxed-bg.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\boxed-bg.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\boxed-bg.png",
+      "PackagePath": "staticwebassets\\lte\\img\\boxed-bg.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\credit\\american-express.png",
+      "PackagePath": "staticwebassets\\lte\\img\\credit\\american-express.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\credit\\cirrus.png",
+      "PackagePath": "staticwebassets\\lte\\img\\credit\\cirrus.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\credit\\mastercard.png",
+      "PackagePath": "staticwebassets\\lte\\img\\credit\\mastercard.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\credit\\paypal.png",
+      "PackagePath": "staticwebassets\\lte\\img\\credit\\paypal.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\credit\\paypal2.png",
+      "PackagePath": "staticwebassets\\lte\\img\\credit\\paypal2.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\credit\\visa.png",
+      "PackagePath": "staticwebassets\\lte\\img\\credit\\visa.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\default-150x150.png",
+      "PackagePath": "staticwebassets\\lte\\img\\default-150x150.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\icons.png",
+      "PackagePath": "staticwebassets\\lte\\img\\icons.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\photo1.png",
+      "PackagePath": "staticwebassets\\lte\\img\\photo1.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\photo2.png",
+      "PackagePath": "staticwebassets\\lte\\img\\photo2.png"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\photo3.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\photo3.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\photo4.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\photo4.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\prod-1.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\prod-1.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\prod-2.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\prod-2.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\prod-3.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\prod-3.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\prod-4.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\prod-4.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\prod-5.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\prod-5.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\user1-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\user1-128x128.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\user2-160x160.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\user3-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\user3-128x128.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\user4-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\user4-128x128.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\user5-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\user5-128x128.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\user6-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\user6-128x128.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\user7-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\user7-128x128.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\img\\user8-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\img\\user8-128x128.jpg"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\lte\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\js\\demo.min.js",
+      "PackagePath": "staticwebassets\\lte\\js\\demo.min.js"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MovieApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
