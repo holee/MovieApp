@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\fonts\\js\\all.min.js"
     },
     {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.min.js"
+    },
+    {
       "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\css\\adminlte.min.css",
       "PackagePath": "staticwebassets\\lte\\css\\adminlte.min.css"
     },

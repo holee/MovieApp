@@ -1,126 +1,59 @@
-﻿
+﻿@model IEnumerable<MovieApp.Models.Movie>
+
 @{
     ViewData["Title"] = "Index";
-    //Layout = "Layout";
 }
 
-    <div class="container">
+<h1>Index</h1>
 
-     
-    @DateTime.Now
-    <br />
-    @DateTime.MaxValue
-    @ViewBag.MyName
-    <br/>
-    @foreach (var item in ViewBag.Ex)
-    {
-        <p>@item</p>
-    }
-    <pre>
-        @ViewBag.movie.Id
-        @ViewBag.movie.Title
-        @ViewBag.movie.Description
-        @ViewBag.movie.Genre
-        @ViewBag.movie.ReleaseDate
-    </pre>
-    
-    <table class="table table-sm table-bordered table-stripes"> 
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Title</th>
-                <th>Genger</th>
-                <th>Realse Date</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        @foreach (var item in ViewBag.movies)
-        {
-            <tr>
-                <td>@item.Id</td>
-                <td>@item.Title</td>
-                <td>@item.Genre</td>
-                <td>@item.ReleaseDate</td>
-                <td>@item.Description</td>
-            </tr>
-        }
-    </table>
-    <h2>using view data</h2>
-    <h1>@ViewData["newName"]</h1>
-    @ViewData["arr"]
-    @foreach (var item in (int[])ViewData["arr"])
-    {
-        <li>@item</li>
-    }
-    <h2>
-        <pre>
-            @{
-                    var mv = (Movie?)ViewData["mv"];
-                    var x = 100;
-                var y = 1000;
-                string add = "Siem reap";
-                @x
-                @y
-                @add
-            }
-        
-            @mv?.Id
-            @mv?.Title
-            @mv?.Genre
-            @mv?.ReleaseDate
-            @mv?.Description
-        </pre>
-    </h2>
-    <table class="table table-sm table-bordered table-stripes">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Title</th>
-                <th>Genger</th>
-                <th>Realse Date</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        @{
-            var mvs = (Movie[]?)ViewData["mvs"];
-                @:sdgshdghsgdhsgdhsgd
-                <text>
-                sdshdshd
-                sdjsdhsvdys
-                sdjsdhsduv
-                sdjsydfsudf
-                sdgsdfu
-                </text>
-        }
-        @foreach (var item in mvs??Enumerable.Empty<Movie>())
-        {
-            <tr>
-                <td>@item.Id</td>
-                <td>@item.Title</td>
-                <td>@item.Genre</td>
-                <td>@item.ReleaseDate</td>
-                <td>@item.Description</td>
-            </tr>
-        }
-    </table>
-    </div>
-
-
-
-@section Scripts{
-    <script>
-    </script>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReleaseDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReleaseDate)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            </td>
+        </tr>
 }
-
-@section Styles{
-    <style>
-        
-    </style>
-}
-
-        @section search{
-    <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-        }
+    </tbody>
+</table>

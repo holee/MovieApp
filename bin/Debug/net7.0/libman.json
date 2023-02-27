@@ -53,12 +53,18 @@
       ]
     },
     {
-      "provider": "cdnjs",
       "library": "font-awesome@6.3.0",
       "destination": "wwwroot/fonts/",
       "files": [
         "css/all.min.css",
         "js/all.min.js"
+      ]
+    },
+    {
+      "library": "jquery@3.6.3",
+      "destination": "wwwroot/jquery/",
+      "files": [
+        "jquery.min.js"
       ]
     }
   ]

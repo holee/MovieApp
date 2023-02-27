@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ctHgE29ZlhztQk8+ArrM0tUKOGhnYFzyQjbCk98tcZE=",
+  "Hash": "iy1S7k0yn1htBawZMMQs3CS0R6D/4oj56sxhDfbR3vE=",
   "Source": "MovieApp",
   "BasePath": "_content/MovieApp",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Index.css"
+    },
+    {
+      "Identity": "D:\\KhDev\\MovieApp\\wwwroot\\jquery\\jquery.min.js",
+      "SourceId": "MovieApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\KhDev\\MovieApp\\wwwroot\\",
+      "BasePath": "_content/MovieApp",
+      "RelativePath": "jquery/jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery\\jquery.min.js"
     },
     {
       "Identity": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\css\\adminlte.min.css",
