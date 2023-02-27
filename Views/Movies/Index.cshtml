@@ -1,7 +1,10 @@
-﻿@model IEnumerable<MovieApp.Models.Movie>
+﻿@using System.Data
 
+@*@model IEnumerable<MovieApp.Models.Movie>*@
+@model DataTable
 @{
     ViewData["Title"] = "Index";
+    
 }
 
 <h1>Index</h1>
@@ -11,7 +14,7 @@
 </p>
 <table class="table">
     <thead>
-        <tr>
+        @*<tr>
             <th>
                 @Html.DisplayNameFor(model => model.Id)
             </th>
@@ -28,15 +31,17 @@
                 @Html.DisplayNameFor(model => model.ReleaseDate)
             </th>
             <th></th>
-        </tr>
+        </tr>*@
+
+
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (DataRow row in Model.Rows) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Id)
+                @row.ItemArray[0]
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
@@ -52,7 +57,7 @@
                 @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
                     @Html.ActionLink("Details", "Details", new { id=item.Id }) |
                     @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-            </td>
+            </td>*@
         </tr>
 }
     </tbody>
