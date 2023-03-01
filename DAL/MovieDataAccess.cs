@@ -11,7 +11,7 @@ namespace MovieApp.DAL
         private const string connectionString = @"Server=localhost;database=A105Db;
                                                  Trusted_Connection=true;
                                                  TrustServerCertificate=true;";
-        public IReadOnlyList<Movie> GetsAllMovies()
+        public IReadOnlyList<Movie> GetsAllMovies() 
         {
 
             using (var conn = new SqlConnection(connectionString))
@@ -35,20 +35,6 @@ namespace MovieApp.DAL
                                         Genre = (Genre)f.Field<Genre>("Genre")
 
                                     }).ToList();
-
-
-                    //List<Movie> mvs = new List<Movie>();
-
-                    //while (reader.Read())
-                    //{
-                    //    var mv = new Movie();
-
-                    //    mv.Id = reader.GetInt32(0);
-                    //    mv.Title = reader.GetString(1);
-
-
-                    //    mvs.Add(mv);
-                    //}
                     return movies;
 
                 }
@@ -57,7 +43,7 @@ namespace MovieApp.DAL
         }
 
 
-        public DataTable GetsAllMoviesAdDt() 
+        public DataTable GetsAllMoviesAsDt() 
         {
 
             using (var conn = new SqlConnection(connectionString))

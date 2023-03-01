@@ -17,9 +17,17 @@ namespace MovieApp.Controllers
 
 
         [HttpGet]
+        public ViewResult List()
+        {
+            var movies = _movie.GetsAllMovies(); 
+            return View("List", movies);
+        }
+
+
+        [HttpGet]
         public ViewResult Index()
         {
-            var movies=_movie.GetsAllMoviesAdDt();
+            var movies=_movie.GetsAllMoviesAsDt();
             return View("Index",movies);
         }
         [HttpGet]
