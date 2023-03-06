@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using MovieApp.DAL;
 using MovieApp.Models;
 using System.Reflection.Metadata.Ecma335;
@@ -17,9 +18,13 @@ namespace MovieApp.Controllers
 
 
         [HttpGet]
-        public ViewResult List()
+        public ViewResult List(string txtsearch)
         {
-            var movies = _movie.GetsAllMovies(); 
+            var movies = _movie.GetsAllMovies();
+            if(!string.IsNullOrEmpty(txtsearch))
+            {
+                movies=movies.Where(m=>m.Title.Contains(txtsearch)).ToList().AsReadOnly();
+            }
             return View("List", movies);
         }
 
@@ -33,6 +38,12 @@ namespace MovieApp.Controllers
         [HttpGet]
         public  ActionResult Create()
         {
+            ViewBag.types = new List<SelectListItem>{
+                new SelectListItem { Text="Drama",Value="Drama"},
+                new SelectListItem { Text = "Scient", Value = "Scient" },
+                new SelectListItem { Text = "Horror", Value = "Horror" },
+            };
+            ViewBag.typess = new SelectList(new[] { "A","B","C","D" });
             return View();
         }
 
