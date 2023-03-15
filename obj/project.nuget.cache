@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Pmh9xExsh0s/5n0nTawt2S+BgFqvloEqi0kibm9ke0bO/eUIXOinQoWvVxk4qT1jgttZN7tT5AKHufQvs4e3AA==",
+  "dgSpecHash": "uoZPmN4WLmBZX6CHToUQCthX8QFNvXW3BcbLZfeWtedPH7TEgwTDmYd+QrQlnahyJ+oDgbX0eFAjHN/XwM5qNw==",
   "success": true,
   "projectFilePath": "D:\\KhDev\\MovieApp\\MovieApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Covid19\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Covid19\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Covid19\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Covid19\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Covid19\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\Covid19\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -55,6 +56,7 @@
     "C:\\Users\\Covid19\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\7.0.4\\microsoft.visualstudio.web.codegenerators.mvc.7.0.4.nupkg.sha512",
     "C:\\Users\\Covid19\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Covid19\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Covid19\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
     "C:\\Users\\Covid19\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Covid19\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Covid19\\.nuget\\packages\\nuget.common\\6.3.1\\nuget.common.6.3.1.nupkg.sha512",

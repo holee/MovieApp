@@ -12,7 +12,7 @@
 <div class="">
     <form action="/Movies/List" method="get">
         <label>Search</label>
-        <input type="text" name="txtsearch" class="form-contorl" />
+        <input type="text" name="search" value="@ViewBag.search" class="form-contorl" />
         <button>Search</button>
     </form>
 </div>
@@ -64,7 +64,7 @@
                 </td>*@
                 <td>
                     <a asp-action="Edit" asp-controller="Movies"
-                        asp-area="example"
+                        
                         asp-route-id="@item.Id">
                         Edit
                     </a>

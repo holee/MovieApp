@@ -18,12 +18,14 @@ namespace MovieApp.Controllers
 
 
         [HttpGet]
-        public ViewResult List(string txtsearch)
+        public ViewResult List(string search)
         {
             var movies = _movie.GetsAllMovies();
-            if(!string.IsNullOrEmpty(txtsearch))
+            
+            if(!string.IsNullOrEmpty(search))
             {
-                movies=movies.Where(m=>m.Title.Contains(txtsearch)).ToList().AsReadOnly();
+                ViewBag.search = search;
+                movies =movies.Where(m=>m.Title.Contains(search)).ToList().AsReadOnly();
             }
             return View("List", movies);
         }

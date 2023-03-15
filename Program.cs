@@ -5,6 +5,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddSingleton<MovieDataAccess>();
+
+builder.Services.AddScoped<DapperContext>();
+
+builder.Services.AddTransient<MySqlContext>();
+
 //Add Request Pipelines
 var app = builder.Build();
 app.UseStaticFiles();
