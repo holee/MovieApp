@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\jquery\\jquery.min.js"
     },
     {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\jquery\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\KhDev\\MovieApp\\wwwroot\\jquery\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.validate.unobtrusive.min.js"
+    },
+    {
       "Id": "D:\\KhDev\\MovieApp\\wwwroot\\lte\\css\\adminlte.min.css",
       "PackagePath": "staticwebassets\\lte\\css\\adminlte.min.css"
     },
